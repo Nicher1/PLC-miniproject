@@ -1,0 +1,4 @@
+source;share/saf_msgs/local_setup.bash
+source;share/saf_msgs/local_setup.dsv
+source;share/saf_msgs/local_setup.sh
+source;share/saf_msgs/local_setup.zsh

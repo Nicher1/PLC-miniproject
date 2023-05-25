@@ -1,0 +1,153 @@
+[0.024s] Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_generator_c[0m
+[0.196s] [  3%] Built target saf_msgs__cpp
+[0.201s] [ 12%] Built target ament_cmake_python_copy_saf_msgs
+[0.202s] [ 12%] Built target saf_msgs__rosidl_generator_c
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_cpp[0m
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.257s] [ 22%] Built target saf_msgs__rosidl_typesupport_fastrtps_cpp
+[0.261s] [ 32%] Built target saf_msgs__rosidl_typesupport_introspection_cpp
+[0.275s] [ 41%] Built target saf_msgs__rosidl_typesupport_cpp
+[0.287s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.304s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_introspection_c[0m
+[0.334s] [ 51%] Built target saf_msgs__rosidl_typesupport_fastrtps_c
+[0.341s] [ 61%] Built target saf_msgs__rosidl_typesupport_introspection_c
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_c[0m
+[0.373s] [ 70%] Built target saf_msgs__rosidl_typesupport_c
+[0.411s] [ 70%] Built target saf_msgs
+[0.452s] [ 74%] Built target saf_msgs__py
+[0.476s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_generator_py[0m
+[0.500s] [ 80%] Built target saf_msgs__rosidl_generator_py
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.537s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.537s] [35m[1mConsolidate compiler generated dependencies of target saf_msgs__rosidl_typesupport_c__pyext[0m
+[0.558s] [ 87%] Built target saf_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.560s] [ 93%] Built target saf_msgs__rosidl_typesupport_introspection_c__pyext
+[0.573s] [100%] Built target saf_msgs__rosidl_typesupport_c__pyext
+[0.853s] running egg_info
+[0.854s] writing saf_msgs.egg-info/PKG-INFO
+[0.854s] writing dependency_links to saf_msgs.egg-info/dependency_links.txt
+[0.855s] writing top-level names to saf_msgs.egg-info/top_level.txt
+[0.858s] reading manifest file 'saf_msgs.egg-info/SOURCES.txt'
+[0.859s] writing manifest file 'saf_msgs.egg-info/SOURCES.txt'
+[0.896s] [100%] Built target ament_cmake_python_build_saf_msgs_egg
+[0.910s] Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+[0.995s] Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs
+[1.008s] -- Install configuration: ""
+[1.008s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/rosidl_interfaces/saf_msgs
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/carrier.h
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.009s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.h
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__functions.c
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__struct.h
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__functions.h
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/library_path.sh
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/library_path.dsv
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_generator_c.so
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.010s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_fastrtps_c.h
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_fastrtps_c.so
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.011s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__traits.hpp
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__builder.hpp
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__struct.hpp
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/carrier.hpp
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.012s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/dds_fastrtps
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_fastrtps_cpp.hpp
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_introspection_c.h
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.c
+[1.013s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_introspection_c.so
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_c.so
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_introspection_cpp.hpp
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.cpp
+[1.014s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_introspection_cpp.so
+[1.015s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_cpp.so
+[1.015s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/pythonpath.sh
+[1.015s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/pythonpath.dsv
+[1.015s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info
+[1.015s] -- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[1.016s] -- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.016s] -- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[1.016s] -- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.016s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/__init__.py
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/__init__.py
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/_carrier.py
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/_carrier_s.c
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/libsaf_msgs__rosidl_generator_py.so
+[1.017s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.018s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.018s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_c.c
+[1.018s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.071s] Listing '/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs'...
+[1.071s] Listing '/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg'...
+[1.081s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.082s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.084s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.084s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_generator_py.so
+[1.085s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/msg/Carrier.idl
+[1.085s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/msg/Carrier.msg
+[1.085s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/package_run_dependencies/saf_msgs
+[1.086s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/parent_prefix_path/saf_msgs
+[1.086s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/ament_prefix_path.sh
+[1.086s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/ament_prefix_path.dsv
+[1.086s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/path.sh
+[1.087s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/path.dsv
+[1.087s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.bash
+[1.087s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.sh
+[1.087s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.zsh
+[1.088s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.dsv
+[1.088s] -- Installing: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.dsv
+[1.088s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/packages/saf_msgs
+[1.088s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cExport.cmake
+[1.089s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.089s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.089s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.089s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cppExport.cmake
+[1.090s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.090s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.091s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.092s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cExport.cmake
+[1.096s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.096s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.096s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cppExport.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_pyExport.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake-extras.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.097s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.098s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.098s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.098s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.098s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.098s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgsConfig.cmake
+[1.099s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgsConfig-version.cmake
+[1.099s] -- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.xml
+[1.100s] Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs

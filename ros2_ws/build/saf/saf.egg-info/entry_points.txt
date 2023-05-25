@@ -1,0 +1,4 @@
+[console_scripts]
+carrier_handler = saf.carrier_handler:main
+tcp_server = saf.TCP_server:main
+

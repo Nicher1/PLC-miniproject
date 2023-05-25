@@ -1,0 +1,198 @@
+[0.674s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.674s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2145de53f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2145de4e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2145de4e80>>)
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.731s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hh4000/ros2_ws'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf) by extension 'ros'
+[0.763s] DEBUG:colcon.colcon_core.package_identification:Package 'src/saf' with type 'ros.ament_python' and name 'saf'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/saf_msgs) by extension 'ros'
+[0.765s] DEBUG:colcon.colcon_core.package_identification:Package 'src/saf_msgs' with type 'ros.ament_cmake' and name 'saf_msgs'
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.819s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[0.821s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_args' from command line to 'None'
+[0.932s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_target' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'saf_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.933s] DEBUG:colcon.colcon_core.verb:Building package 'saf_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hh4000/ros2_ws/build/saf_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hh4000/ros2_ws/install/saf_msgs', 'merge_install': False, 'path': '/home/hh4000/ros2_ws/src/saf_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_target' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_clean_first' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'cmake_force_configure' from command line to 'False'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'ament_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.935s] Level 5:colcon.colcon_core.verb:set package 'saf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.935s] DEBUG:colcon.colcon_core.verb:Building package 'saf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hh4000/ros2_ws/build/saf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hh4000/ros2_ws/install/saf', 'merge_install': False, 'path': '/home/hh4000/ros2_ws/src/saf', 'symlink_install': False, 'test_result_base': None}
+[0.936s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.940s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hh4000/ros2_ws/src/saf_msgs' with build type 'ament_cmake'
+[0.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hh4000/ros2_ws/src/saf_msgs'
+[0.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.951s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.951s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+[7.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+[7.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs
+[7.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saf_msgs)
+[7.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs
+[7.970s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs' for CMake module files
+[7.971s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs' for CMake config files
+[7.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf_msgs', 'cmake_prefix_path')
+[7.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.ps1'
+[7.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.dsv'
+[7.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.sh'
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib'
+[7.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf_msgs', 'ld_library_path_lib')
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.ps1'
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.dsv'
+[7.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.sh'
+[7.981s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/bin'
+[7.981s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib/pkgconfig/saf_msgs.pc'
+[7.982s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib/python3.10/site-packages'
+[7.982s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/bin'
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.ps1'
+[7.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.dsv'
+[7.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.sh'
+[7.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.bash'
+[7.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.zsh'
+[7.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hh4000/ros2_ws/install/saf_msgs/share/colcon-core/packages/saf_msgs)
+[8.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saf_msgs)
+[8.079s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs' for CMake module files
+[8.079s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs' for CMake config files
+[8.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf_msgs', 'cmake_prefix_path')
+[8.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.ps1'
+[8.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.dsv'
+[8.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/cmake_prefix_path.sh'
+[8.084s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib'
+[8.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf_msgs', 'ld_library_path_lib')
+[8.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.ps1'
+[8.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.dsv'
+[8.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/hook/ld_library_path_lib.sh'
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/bin'
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib/pkgconfig/saf_msgs.pc'
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/lib/python3.10/site-packages'
+[8.089s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf_msgs/bin'
+[8.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.ps1'
+[8.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.dsv'
+[8.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.sh'
+[8.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.bash'
+[8.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.zsh'
+[8.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hh4000/ros2_ws/install/saf_msgs/share/colcon-core/packages/saf_msgs)
+[8.095s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hh4000/ros2_ws/src/saf' with build type 'ament_python'
+[8.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf', 'ament_prefix_path')
+[8.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf/share/saf/hook/ament_prefix_path.ps1'
+[8.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf/share/saf/hook/ament_prefix_path.dsv'
+[8.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf/share/saf/hook/ament_prefix_path.sh'
+[8.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.516s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hh4000/ros2_ws/src/saf'
+[8.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hh4000/ros2_ws/src/saf': AMENT_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs LD_LIBRARY_PATH=/home/hh4000/ros2_ws/install/saf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed
+[9.527s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf' for CMake module files
+[9.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hh4000/ros2_ws/src/saf' returned '0': AMENT_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs LD_LIBRARY_PATH=/home/hh4000/ros2_ws/install/saf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed
+[9.528s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf' for CMake config files
+[9.529s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf/lib'
+[9.529s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf/bin'
+[9.530s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf/lib/pkgconfig/saf.pc'
+[9.530s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages'
+[9.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('saf', 'pythonpath')
+[9.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf/share/saf/hook/pythonpath.ps1'
+[9.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hh4000/ros2_ws/install/saf/share/saf/hook/pythonpath.dsv'
+[9.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hh4000/ros2_ws/install/saf/share/saf/hook/pythonpath.sh'
+[9.534s] Level 1:colcon.colcon_core.environment:checking '/home/hh4000/ros2_ws/install/saf/bin'
+[9.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saf)
+[9.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf/share/saf/package.ps1'
+[9.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hh4000/ros2_ws/install/saf/share/saf/package.dsv'
+[9.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf/share/saf/package.sh'
+[9.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf/share/saf/package.bash'
+[9.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/hh4000/ros2_ws/install/saf/share/saf/package.zsh'
+[9.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hh4000/ros2_ws/install/saf/share/colcon-core/packages/saf)
+[9.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.540s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.551s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.551s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.551s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.645s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.648s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hh4000/ros2_ws/install/local_setup.ps1'
+[9.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hh4000/ros2_ws/install/_local_setup_util_ps1.py'
+[9.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hh4000/ros2_ws/install/setup.ps1'
+[9.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hh4000/ros2_ws/install/local_setup.sh'
+[9.655s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hh4000/ros2_ws/install/_local_setup_util_sh.py'
+[9.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hh4000/ros2_ws/install/setup.sh'
+[9.659s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hh4000/ros2_ws/install/local_setup.bash'
+[9.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hh4000/ros2_ws/install/setup.bash'
+[9.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hh4000/ros2_ws/install/local_setup.zsh'
+[9.663s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hh4000/ros2_ws/install/setup.zsh'

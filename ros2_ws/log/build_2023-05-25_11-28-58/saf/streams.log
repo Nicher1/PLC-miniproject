@@ -1,0 +1,41 @@
+[1.347s] Invoking command in '/home/hh4000/ros2_ws/src/saf': AMENT_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs LD_LIBRARY_PATH=/home/hh4000/ros2_ws/install/saf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed
+[1.769s] running egg_info
+[1.770s] creating ../../build/saf/saf.egg-info
+[1.771s] writing ../../build/saf/saf.egg-info/PKG-INFO
+[1.771s] writing dependency_links to ../../build/saf/saf.egg-info/dependency_links.txt
+[1.771s] writing entry points to ../../build/saf/saf.egg-info/entry_points.txt
+[1.772s] writing requirements to ../../build/saf/saf.egg-info/requires.txt
+[1.772s] writing top-level names to ../../build/saf/saf.egg-info/top_level.txt
+[1.772s] writing manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+[1.776s] reading manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+[1.777s] writing manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+[1.777s] running build
+[1.777s] running build_py
+[1.778s] creating /home/hh4000/ros2_ws/build/saf/build
+[1.778s] creating /home/hh4000/ros2_ws/build/saf/build/lib
+[1.778s] creating /home/hh4000/ros2_ws/build/saf/build/lib/saf
+[1.778s] copying saf/carrier_handler.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf
+[1.778s] copying saf/__init__.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf
+[1.779s] copying saf/TCP_server.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf
+[1.779s] running install
+[1.779s] running install_lib
+[1.780s] creating /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+[1.781s] copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/carrier_handler.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+[1.781s] copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/__init__.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+[1.781s] copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/TCP_server.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+[1.782s] byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/carrier_handler.py to carrier_handler.cpython-310.pyc
+[1.783s] byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/__init__.py to __init__.cpython-310.pyc
+[1.783s] byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/TCP_server.py to TCP_server.cpython-310.pyc
+[1.784s] running install_data
+[1.785s] creating /home/hh4000/ros2_ws/install/saf/share/ament_index
+[1.785s] creating /home/hh4000/ros2_ws/install/saf/share/ament_index/resource_index
+[1.785s] creating /home/hh4000/ros2_ws/install/saf/share/ament_index/resource_index/packages
+[1.786s] copying resource/saf -> /home/hh4000/ros2_ws/install/saf/share/ament_index/resource_index/packages
+[1.786s] copying package.xml -> /home/hh4000/ros2_ws/install/saf/share/saf
+[1.786s] running install_egg_info
+[1.788s] Copying ../../build/saf/saf.egg-info to /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info
+[1.790s] running install_scripts
+[1.823s] Installing carrier_handler script to /home/hh4000/ros2_ws/install/saf/lib/saf
+[1.823s] Installing tcp_server script to /home/hh4000/ros2_ws/install/saf/lib/saf
+[1.823s] writing list of installed files to '/home/hh4000/ros2_ws/build/saf/install.log'
+[1.886s] Invoked command in '/home/hh4000/ros2_ws/src/saf' returned '0': AMENT_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hh4000/ros2_ws/install/saf_msgs LD_LIBRARY_PATH=/home/hh4000/ros2_ws/install/saf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed

@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (saf_msgs) JobQueued: {'identifier': 'saf_msgs', 'dependencies': OrderedDict()}
+[0.001133] (saf) JobQueued: {'identifier': 'saf', 'dependencies': OrderedDict([('saf_msgs', '/home/hh4000/ros2_ws/install/saf_msgs')])}
+[0.001233] (saf_msgs) JobStarted: {'identifier': 'saf_msgs'}
+[0.019395] (saf_msgs) JobProgress: {'identifier': 'saf_msgs', 'progress': 'cmake'}
+[0.021101] (saf_msgs) JobProgress: {'identifier': 'saf_msgs', 'progress': 'build'}
+[0.022477] (saf_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hh4000/ros2_ws/build/saf_msgs', '--', '-j4', '-l4'], 'cwd': '/home/hh4000/ros2_ws/build/saf_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hh4000'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hh4000'), ('OLDPWD', '/home/hh4000'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '856'), ('SYSTEMD_EXEC_PID', '1295'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3463'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hh4000'), ('JOURNAL_STREAM', '8:28733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hh4000'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Hans-ubuntu:@/tmp/.ICE-unix/963,unix/Hans-ubuntu:/tmp/.ICE-unix/963'), ('INVOCATION_ID', 'e2326d5d163f4ffbac73f72996645568'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CEP441'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4042bb17-7c97-4f73-8ada-5c771e4be20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hh4000/ros2_ws/build/saf_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099494] (-) TimerEvent: {}
+[0.142842] (saf_msgs) StdoutLine: {'line': b'[  3%] Built target saf_msgs__cpp\n'}
+[0.143342] (saf_msgs) StdoutLine: {'line': b'[ 12%] Built target saf_msgs__rosidl_generator_c\n'}
+[0.192219] (saf_msgs) StdoutLine: {'line': b'[ 22%] Built target saf_msgs__rosidl_typesupport_cpp\n'}
+[0.200113] (-) TimerEvent: {}
+[0.203071] (saf_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_copy_saf_msgs\n'}
+[0.216018] (saf_msgs) StdoutLine: {'line': b'[ 32%] Built target saf_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.219431] (saf_msgs) StdoutLine: {'line': b'[ 41%] Built target saf_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.243685] (saf_msgs) StdoutLine: {'line': b'[ 51%] Built target saf_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.265367] (saf_msgs) StdoutLine: {'line': b'[ 67%] Built target saf_msgs__rosidl_typesupport_introspection_c\n'}
+[0.265761] (saf_msgs) StdoutLine: {'line': b'[ 70%] Built target saf_msgs__rosidl_typesupport_c\n'}
+[0.292481] (saf_msgs) StdoutLine: {'line': b'[ 70%] Built target saf_msgs\n'}
+[0.302704] (-) TimerEvent: {}
+[0.325467] (saf_msgs) StdoutLine: {'line': b'[ 74%] Built target saf_msgs__py\n'}
+[0.380970] (saf_msgs) StdoutLine: {'line': b'[ 80%] Built target saf_msgs__rosidl_generator_py\n'}
+[0.404411] (-) TimerEvent: {}
+[0.495234] (saf_msgs) StdoutLine: {'line': b'[ 87%] Built target saf_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.500732] (saf_msgs) StdoutLine: {'line': b'[ 96%] Built target saf_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.501071] (saf_msgs) StdoutLine: {'line': b'[100%] Built target saf_msgs__rosidl_typesupport_c__pyext\n'}
+[0.504516] (-) TimerEvent: {}
+[0.604944] (-) TimerEvent: {}
+[0.705345] (-) TimerEvent: {}
+[0.805735] (-) TimerEvent: {}
+[0.844428] (saf_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.845409] (saf_msgs) StdoutLine: {'line': b'writing saf_msgs.egg-info/PKG-INFO\n'}
+[0.845839] (saf_msgs) StdoutLine: {'line': b'writing dependency_links to saf_msgs.egg-info/dependency_links.txt\n'}
+[0.846249] (saf_msgs) StdoutLine: {'line': b'writing top-level names to saf_msgs.egg-info/top_level.txt\n'}
+[0.852100] (saf_msgs) StdoutLine: {'line': b"reading manifest file 'saf_msgs.egg-info/SOURCES.txt'\n"}
+[0.853917] (saf_msgs) StdoutLine: {'line': b"writing manifest file 'saf_msgs.egg-info/SOURCES.txt'\n"}
+[0.902153] (saf_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_saf_msgs_egg\n'}
+[0.905888] (-) TimerEvent: {}
+[0.919575] (saf_msgs) CommandEnded: {'returncode': 0}
+[0.993529] (saf_msgs) JobProgress: {'identifier': 'saf_msgs', 'progress': 'install'}
+[1.004339] (saf_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hh4000/ros2_ws/build/saf_msgs'], 'cwd': '/home/hh4000/ros2_ws/build/saf_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'hh4000'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hh4000'), ('OLDPWD', '/home/hh4000'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '856'), ('SYSTEMD_EXEC_PID', '1295'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3463'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hh4000'), ('JOURNAL_STREAM', '8:28733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hh4000'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Hans-ubuntu:@/tmp/.ICE-unix/963,unix/Hans-ubuntu:/tmp/.ICE-unix/963'), ('INVOCATION_ID', 'e2326d5d163f4ffbac73f72996645568'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CEP441'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '2'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4042bb17-7c97-4f73-8ada-5c771e4be20b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hh4000/ros2_ws/build/saf_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.005879] (-) TimerEvent: {}
+[1.017002] (saf_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.017449] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/rosidl_interfaces/saf_msgs\n'}
+[1.017803] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.018163] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.018385] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.018550] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/carrier.h\n'}
+[1.018753] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.018923] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.h\n'}
+[1.019238] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__functions.c\n'}
+[1.019402] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__struct.h\n'}
+[1.019556] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__functions.h\n'}
+[1.019838] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/library_path.sh\n'}
+[1.020036] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/library_path.dsv\n'}
+[1.020223] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_generator_c.so\n'}
+[1.020383] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.020563] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.020838] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.021006] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.021254] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_fastrtps_c.h\n'}
+[1.021572] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.021948] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.022141] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.022346] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.022516] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__traits.hpp\n'}
+[1.022798] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__builder.hpp\n'}
+[1.022966] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__struct.hpp\n'}
+[1.023386] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/carrier.hpp\n'}
+[1.023572] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.023750] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.023978] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.024141] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.024328] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/dds_fastrtps\n'}
+[1.024520] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.024705] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.024923] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.025080] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.025233] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.025387] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_introspection_c.h\n'}
+[1.025541] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.c\n'}
+[1.025721] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.026098] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.026272] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_c.so\n'}
+[1.026475] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs\n'}
+[1.026702] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg\n'}
+[1.026976] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail\n'}
+[1.027134] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.027307] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/include/saf_msgs/saf_msgs/msg/detail/carrier__type_support.cpp\n'}
+[1.027479] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.027793] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_typesupport_cpp.so\n'}
+[1.028218] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/pythonpath.sh\n'}
+[1.028533] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/pythonpath.dsv\n'}
+[1.028707] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info\n'}
+[1.028938] (saf_msgs) StdoutLine: {'line': b'-- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.029127] (saf_msgs) StdoutLine: {'line': b'-- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.029340] (saf_msgs) StdoutLine: {'line': b'-- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.029572] (saf_msgs) StdoutLine: {'line': b'-- Installing: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.031194] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs\n'}
+[1.031494] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/__init__.py\n'}
+[1.031683] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg\n'}
+[1.031864] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/__init__.py\n'}
+[1.032040] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/_carrier.py\n'}
+[1.032221] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg/_carrier_s.c\n'}
+[1.032416] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.032628] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.032876] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/libsaf_msgs__rosidl_generator_py.so\n'}
+[1.033068] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.033234] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.033433] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/_saf_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.033617] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.092196] (saf_msgs) StdoutLine: {'line': b"Listing '/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs'...\n"}
+[1.092582] (saf_msgs) StdoutLine: {'line': b"Listing '/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/msg'...\n"}
+[1.101588] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.102518] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.103878] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages/saf_msgs/saf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.104550] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/lib/libsaf_msgs__rosidl_generator_py.so\n'}
+[1.105312] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/msg/Carrier.idl\n'}
+[1.105673] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/msg/Carrier.msg\n'}
+[1.105869] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/package_run_dependencies/saf_msgs\n'}
+[1.106041] (-) TimerEvent: {}
+[1.106365] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/parent_prefix_path/saf_msgs\n'}
+[1.106730] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/ament_prefix_path.sh\n'}
+[1.106927] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/ament_prefix_path.dsv\n'}
+[1.107246] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/path.sh\n'}
+[1.107439] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/environment/path.dsv\n'}
+[1.107613] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.bash\n'}
+[1.107872] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.sh\n'}
+[1.108096] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.zsh\n'}
+[1.108282] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/local_setup.dsv\n'}
+[1.108473] (saf_msgs) StdoutLine: {'line': b'-- Installing: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.dsv\n'}
+[1.108760] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/ament_index/resource_index/packages/saf_msgs\n'}
+[1.109003] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cExport.cmake\n'}
+[1.109192] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.109422] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.109605] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.109790] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.110547] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.111172] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.111865] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.112166] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.112429] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.112678] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.113090] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.113445] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.114089] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.114610] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.115124] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.115429] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/export_saf_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.115658] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.115845] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.116168] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.116390] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.116579] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.116769] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.116998] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.117188] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgsConfig.cmake\n'}
+[1.117363] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/cmake/saf_msgsConfig-version.cmake\n'}
+[1.117555] (saf_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/hh4000/ros2_ws/install/saf_msgs/share/saf_msgs/package.xml\n'}
+[1.120857] (saf_msgs) CommandEnded: {'returncode': 0}
+[1.206179] (-) TimerEvent: {}
+[1.289153] (saf_msgs) JobEnded: {'identifier': 'saf_msgs', 'rc': 0}
+[1.292464] (saf) JobStarted: {'identifier': 'saf'}
+[1.306285] (-) TimerEvent: {}
+[1.406799] (-) TimerEvent: {}
+[1.507255] (-) TimerEvent: {}
+[1.607664] (-) TimerEvent: {}
+[1.708074] (-) TimerEvent: {}
+[1.808481] (-) TimerEvent: {}
+[1.908871] (-) TimerEvent: {}
+[2.009292] (-) TimerEvent: {}
+[2.109640] (-) TimerEvent: {}
+[2.209996] (-) TimerEvent: {}
+[2.310361] (-) TimerEvent: {}
+[2.410790] (-) TimerEvent: {}
+[2.511214] (-) TimerEvent: {}
+[2.570910] (saf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/saf', 'build', '--build-base', '/home/hh4000/ros2_ws/build/saf/build', 'install', '--record', '/home/hh4000/ros2_ws/build/saf/install.log', '--single-version-externally-managed'], 'cwd': '/home/hh4000/ros2_ws/src/saf', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'hh4000', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/hh4000/ros2_ws/install/saf_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hh4000', 'OLDPWD': '/home/hh4000', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '856', 'SYSTEMD_EXEC_PID': '1295', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3463', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hh4000', 'JOURNAL_STREAM': '8:28733', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hh4000', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Hans-ubuntu:@/tmp/.ICE-unix/963,unix/Hans-ubuntu:/tmp/.ICE-unix/963', 'INVOCATION_ID': 'e2326d5d163f4ffbac73f72996645568', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.CEP441', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/home/hh4000/ros2_ws/install/saf_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4042bb17-7c97-4f73-8ada-5c771e4be20b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/hh4000/ros2_ws/build/saf', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:/home/hh4000/ros2_ws/install/saf_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hh4000/ros2_ws/install/saf_msgs'}, 'shell': False}
+[2.611330] (-) TimerEvent: {}
+[2.711709] (-) TimerEvent: {}
+[2.812109] (-) TimerEvent: {}
+[2.912538] (-) TimerEvent: {}
+[3.012931] (-) TimerEvent: {}
+[3.061228] (saf) StdoutLine: {'line': b'running egg_info\n'}
+[3.062405] (saf) StdoutLine: {'line': b'writing ../../build/saf/saf.egg-info/PKG-INFO\n'}
+[3.062839] (saf) StdoutLine: {'line': b'writing dependency_links to ../../build/saf/saf.egg-info/dependency_links.txt\n'}
+[3.063238] (saf) StdoutLine: {'line': b'writing entry points to ../../build/saf/saf.egg-info/entry_points.txt\n'}
+[3.063547] (saf) StdoutLine: {'line': b'writing requirements to ../../build/saf/saf.egg-info/requires.txt\n'}
+[3.063824] (saf) StdoutLine: {'line': b'writing top-level names to ../../build/saf/saf.egg-info/top_level.txt\n'}
+[3.067665] (saf) StdoutLine: {'line': b"reading manifest file '../../build/saf/saf.egg-info/SOURCES.txt'\n"}
+[3.069118] (saf) StdoutLine: {'line': b"writing manifest file '../../build/saf/saf.egg-info/SOURCES.txt'\n"}
+[3.069592] (saf) StdoutLine: {'line': b'running build\n'}
+[3.069806] (saf) StdoutLine: {'line': b'running build_py\n'}
+[3.070070] (saf) StdoutLine: {'line': b'copying saf/TCP_server.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf\n'}
+[3.070855] (saf) StdoutLine: {'line': b'running install\n'}
+[3.071931] (saf) StdoutLine: {'line': b'running install_lib\n'}
+[3.073022] (saf) StdoutLine: {'line': b'copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/TCP_server.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf\n'}
+[3.074273] (saf) StdoutLine: {'line': b'byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/TCP_server.py to TCP_server.cpython-310.pyc\n'}
+[3.076407] (saf) StdoutLine: {'line': b'running install_data\n'}
+[3.077969] (saf) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.080856] (saf) StdoutLine: {'line': b"removing '/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.081429] (saf) StdoutLine: {'line': b'Copying ../../build/saf/saf.egg-info to /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info\n'}
+[3.083462] (saf) StdoutLine: {'line': b'running install_scripts\n'}
+[3.113049] (-) TimerEvent: {}
+[3.118385] (saf) StdoutLine: {'line': b'Installing carrier_handler script to /home/hh4000/ros2_ws/install/saf/lib/saf\n'}
+[3.118769] (saf) StdoutLine: {'line': b'Installing tcp_server script to /home/hh4000/ros2_ws/install/saf/lib/saf\n'}
+[3.119476] (saf) StdoutLine: {'line': b"writing list of installed files to '/home/hh4000/ros2_ws/build/saf/install.log'\n"}
+[3.176641] (saf) CommandEnded: {'returncode': 0}
+[3.194469] (saf) JobEnded: {'identifier': 'saf', 'rc': 0}
+[3.195712] (-) EventReactorShutdown: {}

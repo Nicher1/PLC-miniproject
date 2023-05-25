@@ -1,0 +1,6 @@
+{
+  "package_name": "saf_msgs",
+  "non_idl_tuples": [
+    "/home/hh4000/ros2_ws/src/saf_msgs:msg/Carrier.msg"
+  ]
+}

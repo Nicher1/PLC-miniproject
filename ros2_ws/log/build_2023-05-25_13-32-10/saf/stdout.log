@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/saf/saf.egg-info/PKG-INFO
+writing dependency_links to ../../build/saf/saf.egg-info/dependency_links.txt
+writing entry points to ../../build/saf/saf.egg-info/entry_points.txt
+writing requirements to ../../build/saf/saf.egg-info/requires.txt
+writing top-level names to ../../build/saf/saf.egg-info/top_level.txt
+reading manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+writing manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying saf/TCP_server.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf
+running install
+running install_lib
+copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/TCP_server.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/TCP_server.py to TCP_server.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/saf/saf.egg-info to /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info
+running install_scripts
+Installing carrier_handler script to /home/hh4000/ros2_ws/install/saf/lib/saf
+Installing tcp_server script to /home/hh4000/ros2_ws/install/saf/lib/saf
+writing list of installed files to '/home/hh4000/ros2_ws/build/saf/install.log'

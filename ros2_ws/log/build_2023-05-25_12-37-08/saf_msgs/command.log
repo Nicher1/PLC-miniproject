@@ -1,0 +1,4 @@
+Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --build /home/hh4000/ros2_ws/build/saf_msgs -- -j4 -l4
+Invoking command in '/home/hh4000/ros2_ws/build/saf_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs
+Invoked command in '/home/hh4000/ros2_ws/build/saf_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hh4000/ros2_ws/install/saf:/opt/ros/humble /usr/bin/cmake --install /home/hh4000/ros2_ws/build/saf_msgs

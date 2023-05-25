@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from saf_msgs/msg/Carrier.msg
+// generated code does not contain a copyright notice
+
+
+module saf_msgs {
+  module msg {
+    struct Carrier {
+      int64 carry_id;
+
+      int64 station_id;
+
+      int8 hour;
+
+      int8 minute;
+
+      int8 second;
+    };
+  };
+};

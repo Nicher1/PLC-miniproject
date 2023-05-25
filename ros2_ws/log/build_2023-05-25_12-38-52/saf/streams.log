@@ -1,0 +1,25 @@
+[0.967s] Invoking command in '/home/hh4000/ros2_ws/src/saf': PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed
+[1.347s] running egg_info
+[1.348s] writing ../../build/saf/saf.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/saf/saf.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../build/saf/saf.egg-info/entry_points.txt
+[1.351s] writing requirements to ../../build/saf/saf.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/saf/saf.egg-info/top_level.txt
+[1.356s] reading manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+[1.357s] writing manifest file '../../build/saf/saf.egg-info/SOURCES.txt'
+[1.357s] running build
+[1.358s] running build_py
+[1.359s] copying saf/TCP_server.py -> /home/hh4000/ros2_ws/build/saf/build/lib/saf
+[1.360s] running install
+[1.360s] running install_lib
+[1.361s] copying /home/hh4000/ros2_ws/build/saf/build/lib/saf/TCP_server.py -> /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf
+[1.363s] byte-compiling /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf/TCP_server.py to TCP_server.cpython-310.pyc
+[1.364s] running install_data
+[1.366s] running install_egg_info
+[1.368s] removing '/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info' (and everything under it)
+[1.368s] Copying ../../build/saf/saf.egg-info to /home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages/saf-1.0.0-py3.10.egg-info
+[1.370s] running install_scripts
+[1.401s] Installing carrier_handler script to /home/hh4000/ros2_ws/install/saf/lib/saf
+[1.401s] Installing tcp_server script to /home/hh4000/ros2_ws/install/saf/lib/saf
+[1.402s] writing list of installed files to '/home/hh4000/ros2_ws/build/saf/install.log'
+[1.446s] Invoked command in '/home/hh4000/ros2_ws/src/saf' returned '0': PYTHONPATH=/home/hh4000/ros2_ws/build/saf/prefix_override:/home/hh4000/ros2_ws/install/saf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/saf build --build-base /home/hh4000/ros2_ws/build/saf/build install --record /home/hh4000/ros2_ws/build/saf/install.log --single-version-externally-managed
