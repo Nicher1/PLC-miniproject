@@ -1,4 +1,4 @@
-#AAU project: ROS2-PLC Communication System
+# AAU project: ROS2-PLC Communication System
 ## PLC-miniproject
 
 A project that integrates ROS2 nodes and a PLC system to manage and monitor pallet processing operations via TCP/IP.
