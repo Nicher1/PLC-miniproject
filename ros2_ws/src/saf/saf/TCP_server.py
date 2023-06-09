@@ -48,7 +48,9 @@ class PLCInformation(xml.sax.ContentHandler):
 class TCP_server(Node):
 
     def __init__(self):
-
+        """
+        Initializes TCP server node. Publishes to carrier_info topic
+        """
         with open(r'/home/hh4000/SAF_miniproject_files/procssing_times_table.csv') as csvfile:
             # create a CSV reader object
             csvreader = csv.reader(csvfile, delimiter=';')
@@ -62,13 +64,16 @@ class TCP_server(Node):
                 data.append([float(x) for x in row[1:]])
             # convert the data list to a numpy array
             self.processingTimes = np.array(data)
-
+        # Define IP address and port
         self.ipaddress = input("Input IP adress: ")    
         self.port = 20000
+        
+        # Command to initalize ROS2 Node
         super().__init__('tcp_client')
+        # Define publisher
         self.publisher_ = self.create_publisher(
-            Carrier, 
-            'carrier_info', 10
+            Carrier, #msg type
+            'carrier_info', 10 # topic name
         )
         
         self.s = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
@@ -77,6 +82,7 @@ class TCP_server(Node):
 
     def run_tcp(self):
         while True:
+            # Define message variable
             msg = Carrier()
             
             self.get_logger().info("Listening")
@@ -104,14 +110,17 @@ class TCP_server(Node):
                 parser.feed(xml_data)
             except xml.sax.SAXParseException as e:
                 print("Error parsing XML data:", e)
-
+            
+            # Input values into msg
             msg.station_id = (Handler.stationID)
             msg.carry_id = (Handler.carrierID)
             msg.hour = (Handler.hours)
             msg.minute = (Handler.minutes)
             msg.second = (Handler.seconds)
-
+            
+            # publish message
             self.publisher_.publish(msg)
+            # log publish
             self.get_logger().info('Published carrier info')
 
 
@@ -129,14 +138,17 @@ class TCP_server(Node):
 
 
 def main(args=None):
+    # init ros
     rclpy.init(args=args)
-
+    # define node
     tcp_server = TCP_server()
     try:
+        # run node until keyboard interrupt
         tcp_server.run_tcp()
     except KeyboardInterrupt:
         pass
-
+    
+    # destroy node when program is finished
     tcp_server.destroy_node()
     rclpy.shutdown()
 
