@@ -123,19 +123,14 @@ class TCP_server(Node):
             # log publish
             self.get_logger().info('Published carrier info')
 
-
+            # determine processing time
             processingTime = self.processingTimes[int(Handler.carrierID)-1, Handler.stationID-1] #Find the correct processing time
+            # send message
             connection.send((int(processingTime)).to_bytes(2, byteorder="little")) #Send the processing time
             connection.close()
             self.get_logger().info(f"Sent processing time: {processingTime}")
 
             data = 0
-            ## implement code that fills out msg.
-            # tcp_str = ...
-            # msg.carry_id = ...
-            # msg.station_id = ...
-            # etc.
-
 
 def main(args=None):
     # init ros
